@@ -1,13 +1,25 @@
 <!DOCTYPE html>
 <html>
-<head> 
+<head>
+    <meta charset = "UTF-8"> 
+    <link rel="stylesheet" type="text/css" href="style.css"  />
     <title>Fake Check</title>
 </head>
 <body>
-    <h1>Fake Check</h1>
+    <h1>Fake Check</h1><br><br>
+<div class="sidebar">
     <h2>Report a URL</h2>
     <!-- You don't need to implement a form just use javascript -->
-    <input type="text" name="reportedurl" id="url_input"><br><br>
+    <input type="text" placeholder="Enter URL" name="reportedurl" id="url_input">
+    <input type="submit" value="Submit" id="input_submit"><br><br>
+    <h2>Scan Article Content</h2>
+    <textarea id="article_input" placeholder="Enter Text" name="articlecontent"></textarea>
     <input type="submit" value="Submit" id="input_submit">
+</div>
+
+<div class="main">
+<!--Fake score should go here pero wala pa rn soo -->
+    
+</div> 
 </body>
 </html>
