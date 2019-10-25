@@ -6,11 +6,11 @@ body {
 }
 .sidebar {
     background: #eee;
-    position:fixed;
-    left:25px;
+    position: fixed;
+    left:2.5%;
     top:120px;
     bottom:25px;
-    width: 40%;
+    width: 41.5%;
     padding: 30px;
     text-align: center;
     align-items: center;
@@ -66,11 +66,12 @@ body {
     background: #999;  
 }
 .main {
-    position:fixed;
-    right:25px;
+    position: fixed;
+    background: #eee;
+    right:2.5%;
     top:120px;
     bottom:25px;
-    width: 40%;
+    width: 41.5%;
     padding: 30px;
     text-align: center;
 }
